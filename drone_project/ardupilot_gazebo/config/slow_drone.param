@@ -1,0 +1,18 @@
+# Configuración para vuelo lento y estable
+# Velocidades horizontales (unidades en cm/s)
+LOIT_SPEED       200.0    # Velocidad máx en modo Loiter (2 m/s)
+WPNAV_SPEED      200.0    # Velocidad máx entre waypoints (2 m/s)
+WPNAV_ACCEL      100.0    # Aceleración suave (1 m/s^2)
+
+# Velocidades verticales (unidades en cm/s)
+PILOT_SPEED_UP   150.0    # Velocidad de ascenso máx (1.5 m/s)
+PILOT_SPEED_DN   100.0    # Velocidad de descenso máx (1.0 m/s)
+
+# Límites de inclinación
+ANGLE_MAX        2000     # Inclinación máx 20 grados (evita giros bruscos)
+LOIT_ACCEL       150.0    # Aceleración en Loiter suave
+
+# Suavizado de control (PIDs de posición)
+PSC_POSXY_P      0.5      # Menos agresivo al corregir posición GPS
+PSC_VELXY_P      1.0      # Corrección de velocidad más lenta
+PSC_VELXY_I      0.5

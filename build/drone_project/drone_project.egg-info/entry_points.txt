@@ -1,0 +1,4 @@
+[console_scripts]
+battery_gps = drone_project.battery_gps:main
+mission_control = drone_project.mission_control:main
+vision_ui = drone_project.vision_ui:main
